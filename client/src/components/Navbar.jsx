@@ -15,7 +15,7 @@ import {
 Button,Box,Menu,MenuItem,Typography} from '@mui/material'
 
 const Navbar = ({user,isSideBarOpen, setIsSideBarOpen}) => {
-    const dispatch = useDispatch()
+  const dispatch = useDispatch()
   const theme = useTheme();
   const [anchor, setAnchor] = useState(null);
   const isOpen = Boolean(anchor);
